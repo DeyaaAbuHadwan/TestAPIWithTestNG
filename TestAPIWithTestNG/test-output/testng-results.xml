@@ -1,21 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-31T18:31:47 IDT" name="Default suite" finished-at="2022-08-31T18:31:49 IDT" duration-ms="2177">
+  <suite started-at="2022-08-31T18:39:39 IDT" name="Suite" finished-at="2022-08-31T18:39:42 IDT" duration-ms="2728">
     <groups>
     </groups>
-    <test started-at="2022-08-31T18:31:47 IDT" name="Default test" finished-at="2022-08-31T18:31:49 IDT" duration-ms="2177">
+    <test started-at="2022-08-31T18:39:39 IDT" name="Test" finished-at="2022-08-31T18:39:42 IDT" duration-ms="2728">
       <class name="APIMethods.PostRequestMethod">
-        <test-method signature="postMethod()[pri:0, instance:APIMethods.PostRequestMethod@490caf5f, instance params:[]]" started-at="2022-08-31T18:31:47 IDT" name="postMethod" finished-at="2022-08-31T18:31:49 IDT" duration-ms="1700" status="PASS">
+        <test-method signature="postMethod()[pri:0, instance:APIMethods.PostRequestMethod@19e7a160, instance params:[]]" started-at="2022-08-31T18:39:41 IDT" name="postMethod" finished-at="2022-08-31T18:39:41 IDT" duration-ms="408" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postMethod -->
-        <test-method signature="postMethod()[pri:0, instance:APIMethods.PostRequestMethod@7ef27d7f, instance params:[]]" started-at="2022-08-31T18:31:49 IDT" name="postMethod" finished-at="2022-08-31T18:31:49 IDT" duration-ms="456" status="PASS">
+        <test-method signature="postMethod()[pri:0, instance:APIMethods.PostRequestMethod@662706a7, instance params:[]]" started-at="2022-08-31T18:39:41 IDT" name="postMethod" finished-at="2022-08-31T18:39:42 IDT" duration-ms="559" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postMethod -->
       </class> <!-- APIMethods.PostRequestMethod -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="Classes.DataProviderTestNG">
+        <test-method signature="APITesting(java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object)[pri:0, instance:Classes.DataProviderTestNG@4032d386]" started-at="2022-08-31T18:39:39 IDT" name="APITesting" data-provider="ProviderMethod" finished-at="2022-08-31T18:39:40 IDT" duration-ms="1358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"id":101,"title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"id":1,"title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA["POST"]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA["/posts"]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APITesting -->
+        <test-method signature="APITesting(java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object)[pri:0, instance:Classes.DataProviderTestNG@4032d386]" started-at="2022-08-31T18:39:40 IDT" name="APITesting" data-provider="ProviderMethod" finished-at="2022-08-31T18:39:41 IDT" duration-ms="376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"id":101,"title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"id":1,"title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA["POST"]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA["/posts"]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APITesting -->
+      </class> <!-- Classes.DataProviderTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

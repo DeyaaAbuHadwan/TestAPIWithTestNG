@@ -3,7 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="src/test/java.Classes.DataProviderTestNG"/>
+      <class name="Classes.DataProviderTestNG"/>
+      <class name="Classes.FactoryTestNG"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
