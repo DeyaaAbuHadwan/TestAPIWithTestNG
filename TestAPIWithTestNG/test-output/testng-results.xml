@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-31T16:03:28 IDT" name="Default suite" finished-at="2022-08-31T16:03:32 IDT" duration-ms="3651">
+  <suite started-at="2022-08-31T18:31:47 IDT" name="Default suite" finished-at="2022-08-31T18:31:49 IDT" duration-ms="2177">
     <groups>
     </groups>
-    <test started-at="2022-08-31T16:03:28 IDT" name="Default test" finished-at="2022-08-31T16:03:32 IDT" duration-ms="3651">
+    <test started-at="2022-08-31T18:31:47 IDT" name="Default test" finished-at="2022-08-31T18:31:49 IDT" duration-ms="2177">
       <class name="APIMethods.PostRequestMethod">
-        <test-method signature="postMethod()[pri:0, instance:APIMethods.PostRequestMethod@1d483de4, instance params:[]]" started-at="2022-08-31T16:03:28 IDT" name="postMethod" finished-at="2022-08-31T16:03:31 IDT" duration-ms="2964" status="PASS">
+        <test-method signature="postMethod()[pri:0, instance:APIMethods.PostRequestMethod@490caf5f, instance params:[]]" started-at="2022-08-31T18:31:47 IDT" name="postMethod" finished-at="2022-08-31T18:31:49 IDT" duration-ms="1700" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postMethod -->
-        <test-method signature="postMethod()[pri:0, instance:APIMethods.PostRequestMethod@31920ade, instance params:[]]" started-at="2022-08-31T16:03:31 IDT" name="postMethod" finished-at="2022-08-31T16:03:32 IDT" duration-ms="633" status="PASS">
+        <test-method signature="postMethod()[pri:0, instance:APIMethods.PostRequestMethod@7ef27d7f, instance params:[]]" started-at="2022-08-31T18:31:49 IDT" name="postMethod" finished-at="2022-08-31T18:31:49 IDT" duration-ms="456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postMethod -->
